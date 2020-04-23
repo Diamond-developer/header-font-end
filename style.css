@@ -75,6 +75,210 @@ header button {
   margin-right: auto;
 }
 
+
+/* main */
+
+
+/* .main1 */
+
+main .main1 {
+  width: 100%;
+  height: 646px;
+  background-color: #17c2a4;
+}
+
+main .main1 h3 {
+  font-size: 30px;
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 50px 0 15px 0;
+  text-transform: uppercase;
+}
+
+main .main1 hr {
+  border: 1px solid #14a58c;
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+main .main1 span {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+main .main1 .box {
+  margin-top: 5%;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main1 .box .box1 {
+  width: 20%
+}
+
+main .main1 .box .box2 {
+  width: 15%
+}
+
+main .main1 .box .box3 {
+  width: 20%
+}
+
+main .main1 .box .box4 {
+  width: 20%
+}
+
+main .main1 .box h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+main .main1 .box1 img,
+.box4 img {
+  display: block;
+  text-align: center;
+  /* padding-bottom: 25px; */
+  width: 80px;
+  height: 135px;
+}
+
+main .main1 .box2 img {
+  display: block;
+  text-align: center;
+  /* padding-bottom: 25px; */
+  width: 74px;
+  height: 135px;
+}
+
+main .main1 .box3 img {
+  display: block;
+  text-align: center;
+  width: 135px;
+  height: 135px;
+}
+
+main .main1 .box span {
+  font-size: 13px;
+  /* text-transform: uppercase; */
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+/* .main2 */
+
+main .main2 {
+  width: 100%;
+  height: 646px;
+  background-color: #e7f1f8;
+}
+
+main .main2 h3 {
+  font-size: 30px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #3c4761;
+  text-align: center;
+  padding: 50px 0 15px 0;
+  text-transform: uppercase;
+}
+
+main .main2 hr {
+  border: 1px solid #c8d9e5;
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+main .main2 span {
+  display: block;
+  text-align: center;
+  color: 6a7489;
+  font-size: 15px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+main .main2 .box {
+  margin-top: 5%;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+main .main2 .box .box1 {
+  width: 22%;
+}
+
+main .main2 .box .box2 {
+  width: 18%;
+}
+
+main .main2 .box .box3 {
+  width: 22%;
+}
+
+main .main2 .box .box4 {
+  width: 18%;
+}
+
+main .main2 .box h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: 'Titillium Web', sans-serif;
+  height: 10px;
+}
+
+main .main2 .box .tieude {
+  color: #9edbf1;
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+main .main2 .box img {
+  display: block;
+  text-align: center;
+  /* padding-bottom: 25px; */
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+}
+
+main .main2 .box span {
+  font-size: 13px;
+  /* text-transform: uppercase; */
+  font-family: 'Titillium Web', sans-serif;
+}
+
+main .main2 .box .boxfooter {
+  margin-top: 25px;
+  display: flex;
+  margin-left: 22%;
+  margin-right: 22%;
+  /* justify-content: center; */
+  text-align: center;
+  /* align-items: center; */
+}
+
+main .main2 .box .boxfooter img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+
+/* end main */
+
+
+/* footer */
+
 footer {
   width: 100%;
   height: 650px;
@@ -119,7 +323,7 @@ footer .inputtext .nameemail {
   grid-column-gap: 26px;
 }
 
-footer .nameemail .inputleft input {
+footer .inputtext .nameemail .inputleft input {
   width: 300px;
   background-color: #273a71;
   height: 30px;
@@ -128,7 +332,7 @@ footer .nameemail .inputleft input {
   margin-left: 1px;
 }
 
-footer .nameemail .inputright input {
+footer .inputtext .nameemail .inputright input {
   padding-right: 0px;
   width: 300px;
   right: 0px;
@@ -138,7 +342,7 @@ footer .nameemail .inputright input {
   border: none;
 }
 
-footer .inputtext #message {
+footer .inputtext .nameemail #message {
   border-radius: 4px;
   background-color: #273a71;
   border: none;
@@ -164,11 +368,12 @@ footer button {
 }
 
 footer .menufooter {
+  display: flex;
   margin-top: 90px;
   background-color: #344b8e;
 }
 
-footer ul.menu {
+footer .menufooter ul.menu {
   display: flex;
   list-style: none;
   width: 800px;
@@ -176,7 +381,7 @@ footer ul.menu {
   margin-right: auto;
 }
 
-footer ul.menu a {
+footer .menufooter ul.menu a {
   color: white;
   display: block;
   text-decoration: none;
@@ -185,6 +390,6 @@ footer ul.menu a {
   transition: 0.4s;
 }
 
-footer ul.menu a:hover {
+footer .menufooter ul.menu a:hover {
   color: #3286bd;
 }
